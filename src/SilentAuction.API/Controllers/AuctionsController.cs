@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.SignalR; // <-- YENİ
+using Microsoft.AspNetCore.SignalR; 
 using Microsoft.EntityFrameworkCore;
-using SilentAuction.API.Hubs; // <-- YENİ
+using SilentAuction.API.Hubs; 
 using SilentAuction.Application.Interfaces;
 using SilentAuction.Domain.Entities;
 
@@ -12,7 +12,7 @@ namespace SilentAuction.API.Controllers
     public class AuctionsController : ControllerBase
     {
         private readonly IAuctionRepository _repository;
-        private readonly IHubContext<AuctionHub> _hubContext; // <-- YENİ: Yayın aracı
+        private readonly IHubContext<AuctionHub> _hubContext; // Yayın aracı
 
         // Constructor'da HubContext'i içeri alıyoruz
         public AuctionsController(IAuctionRepository repository, IHubContext<AuctionHub> hubContext)
@@ -63,7 +63,6 @@ namespace SilentAuction.API.Controllers
                 // 1. Veritabanına kaydet
                 await _repository.PlaceBidAsync(bid);
 
-                // 2. SIGNALR İLE HERKESE DUYUR! (MAGIC MOMENT ✨)
                 // "ReceiveBid" olayını dinleyen herkese bu mesaj gider.
                 await _hubContext.Clients.All.SendAsync("ReceiveBid", userId, amount);
 
