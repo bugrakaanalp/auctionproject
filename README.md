@@ -10,7 +10,7 @@
 ## 🌟 Key Features
 
 * **Real-Time Bidding:** Powered by **SignalR**, bid updates are pushed instantly to all connected clients without page refreshes.
-* **Spectator Mode:** A responsive, "Vegas-style" UI that syncs live data for thousands of concurrent viewers.
+* **Spectator Mode:** A responsive UI that syncs live data for thousands of concurrent viewers.
 * **Automated Background Workers:** A specialized `BackgroundService` monitors auction deadlines and automatically declares winners when time expires.
 * **Interactive UI:** Gamified experience with confetti effects, live countdown timers, and dynamic status updates.
 * **Clean Architecture:** Separation of concerns with Domain, Application, Infrastructure, and API layers.
