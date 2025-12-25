@@ -1,4 +1,4 @@
-# 🏎️ Nexus Real-Time Luxury Auction Platform
+# Nexus Real-Time Luxury Auction Platform
 
 ![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat&logo=dotnet)
 ![SignalR](https://img.shields.io/badge/SignalR-RealTime-blue)
