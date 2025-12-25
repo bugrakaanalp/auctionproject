@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// --- EKLEME 1: CORS Servisini Ekle (En üstlere yakýn) ---
+//  CORS Servisini Ekle
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
@@ -11,13 +11,11 @@ builder.Services.AddCors(options =>
             .SetIsOriginAllowed(_ => true) // Her yerden gelene izin ver (localhost, dosya vs.)
             .AllowAnyMethod()
             .AllowAnyHeader()
-            .AllowCredentials()); // SignalR için bu zorunludur!
+            .AllowCredentials()); // SignalR
 });
-// -------------------------------------------------------
-
 builder.Services.AddControllers().AddJsonOptions(x =>
 {
-    // Döngüye giren nesneleri görmezden gel (Ignore Cycles)
+    // DÃ¶ngÃ¼ye giren nesneleri gÃ¶rmezden gel (Ignore Cycles)
     x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
 });
 builder.Services.AddSignalR();
@@ -36,7 +34,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// DÝKKAT: UseCors BURADA olmalý (UseAuthorization'dan ÖNCE)
+// UseCors
 app.UseCors("AllowAll");
 
 app.UseAuthorization();
