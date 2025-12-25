@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SilentAuction.Application/1.0.0": {
+        "dependencies": {
+          "SilentAuction.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SilentAuction.Application.dll": {}
+        }
+      },
+      "SilentAuction.Domain/1.0.0": {
+        "runtime": {
+          "SilentAuction.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SilentAuction.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SilentAuction.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

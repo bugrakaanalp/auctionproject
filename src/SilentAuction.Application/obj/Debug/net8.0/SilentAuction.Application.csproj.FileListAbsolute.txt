@@ -1,0 +1,15 @@
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\bin\Debug\net8.0\SilentAuction.Application.deps.json
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\bin\Debug\net8.0\SilentAuction.Application.dll
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\bin\Debug\net8.0\SilentAuction.Application.pdb
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\bin\Debug\net8.0\SilentAuction.Domain.dll
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\bin\Debug\net8.0\SilentAuction.Domain.pdb
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\obj\Debug\net8.0\SilentAuction.Application.csproj.AssemblyReference.cache
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\obj\Debug\net8.0\SilentAuction.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\obj\Debug\net8.0\SilentAuction.Application.AssemblyInfoInputs.cache
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\obj\Debug\net8.0\SilentAuction.Application.AssemblyInfo.cs
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\obj\Debug\net8.0\SilentAuction.Application.csproj.CoreCompileInputs.cache
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\obj\Debug\net8.0\SilentAu.D8421CD8.Up2Date
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\obj\Debug\net8.0\SilentAuction.Application.dll
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\obj\Debug\net8.0\refint\SilentAuction.Application.dll
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\obj\Debug\net8.0\SilentAuction.Application.pdb
+C:\Users\bugra\SilentAuction\src\SilentAuction.Application\obj\Debug\net8.0\ref\SilentAuction.Application.dll

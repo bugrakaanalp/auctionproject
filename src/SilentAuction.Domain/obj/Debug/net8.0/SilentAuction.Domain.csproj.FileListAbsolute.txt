@@ -1,0 +1,11 @@
+C:\Users\bugra\SilentAuction\src\SilentAuction.Domain\bin\Debug\net8.0\SilentAuction.Domain.deps.json
+C:\Users\bugra\SilentAuction\src\SilentAuction.Domain\bin\Debug\net8.0\SilentAuction.Domain.dll
+C:\Users\bugra\SilentAuction\src\SilentAuction.Domain\bin\Debug\net8.0\SilentAuction.Domain.pdb
+C:\Users\bugra\SilentAuction\src\SilentAuction.Domain\obj\Debug\net8.0\SilentAuction.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bugra\SilentAuction\src\SilentAuction.Domain\obj\Debug\net8.0\SilentAuction.Domain.AssemblyInfoInputs.cache
+C:\Users\bugra\SilentAuction\src\SilentAuction.Domain\obj\Debug\net8.0\SilentAuction.Domain.AssemblyInfo.cs
+C:\Users\bugra\SilentAuction\src\SilentAuction.Domain\obj\Debug\net8.0\SilentAuction.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bugra\SilentAuction\src\SilentAuction.Domain\obj\Debug\net8.0\SilentAuction.Domain.dll
+C:\Users\bugra\SilentAuction\src\SilentAuction.Domain\obj\Debug\net8.0\refint\SilentAuction.Domain.dll
+C:\Users\bugra\SilentAuction\src\SilentAuction.Domain\obj\Debug\net8.0\SilentAuction.Domain.pdb
+C:\Users\bugra\SilentAuction\src\SilentAuction.Domain\obj\Debug\net8.0\ref\SilentAuction.Domain.dll
