@@ -11,7 +11,7 @@ namespace SilentAuction.Application.Interfaces
         Task<Auction?> GetByIdAsync(Guid id); // '?' eklendi, null dönebilir
         Task AddAsync(Auction auction);
 
-        // YENİ: Teklif verme metodu
+        // Teklif verme metodu
         Task PlaceBidAsync(Bid bid);
 
         Task SaveChangesAsync();
