@@ -35,7 +35,7 @@ The solution follows the **Clean Architecture** pattern:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/Nexus-Auction.git](https://github.com/YOUR_USERNAME/Nexus-Auction.git)
+    git clone [https://github.com/bugrakaanalp/auctionproject.git](https://github.com/bugrakaanalp/auctionproject.git)
     ```
 
 2.  **Start the Database (Docker)**
